@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tao"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tao"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Register.Register"/>
+        <activity android:name=".Jemp.Jemp_image08" />
+        <activity android:name=".Jemp.Jemp_image07" />
+        <activity android:name=".Jemp.Jemp_image06" />
+        <activity android:name=".Jemp.Jemp_image05" />
+        <activity android:name=".Jemp.Jemp_image04" />
+        <activity android:name=".Jemp.Jemp_image03" />
+        <activity android:name=".Jemp.Jemp_image02" /> <!-- 商品分类 -->
+        <activity android:name=".Jemp.Jemp_image01">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 登录页 -->
+        <activity android:name=".LogAndMain.ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 首页 -->
+        <activity android:name=".LogAndMain.ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
